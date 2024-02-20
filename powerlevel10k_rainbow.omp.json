@@ -3,6 +3,7 @@
   "blocks": [
     {
       "alignment": "left",
+      "segments": [
         {
           "type": "python",
           "style": "powerline",
@@ -14,7 +15,6 @@
               "fetch_virtual_env": true
           }
         },
-      "segments": [
         {
           "background": "#d3d7cf",
           "foreground": "#000000",
