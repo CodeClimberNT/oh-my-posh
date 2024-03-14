@@ -105,10 +105,6 @@
           "properties": {
             "display_mode": "files",
             "fetch_virtual_env": false
-          },
-          "style": "powerline",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} \ue235 ",
-          "type": "python"
         },
         {
           "background": "#AE1401",
@@ -118,7 +114,7 @@
           "properties": {
             "display_mode": "files",
             "fetch_version": true
-          },
+        },
           "style": "powerline",
           "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} \ue791 ",
           "type": "ruby"
