@@ -53,8 +53,8 @@
           "template": " \uE235 {{ .Full }} {{ if .Venv }}{{ .Venv }}{{ end }}",
           "properties": {
               "fetch_virtual_env": true
-          }
-        }
+          },
+        },
       ],
       "type": "prompt"
     },
